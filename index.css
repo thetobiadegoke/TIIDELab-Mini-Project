@@ -1,0 +1,70 @@
+
+/* Resetting the browser to default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.heading {
+    margin: 10px 0;
+}
+
+/* Search box section */
+.search-section {
+    background-color: #6461a0;
+    padding: 10px;
+}
+
+#search {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+}
+
+.user-list-section {
+    margin-top: 20px; 
+
+}
+
+li {
+    list-style: none;
+    border: 1px solid #DDDDDD;
+    margin-top: -1px; /* To prevent double border */
+    padding: 10px;
+    background-color: #f6f6f6;
+    font-size: 18px;
+    text-transform: capitalize;
+    
+}
+li:hover {
+    background-color: #EEEEEE;
+}
+
+/* Username */
+.username {
+    background-color: #6461a0;
+    color: #ffffff;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+
+/* Media query for large screens */
+@media (min-width: 1000px) {
+    body {
+        width: 50%;
+    }
+    li {
+        font-size: 14px;
+    }
+}
